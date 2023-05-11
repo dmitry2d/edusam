@@ -17,12 +17,9 @@
     }
 
     :root {
-        --col-main: 58,48,48;
-        --col-bg-beige: 254,243,216;
-        --col-dark-beige: 212,155,101;
-        --col-white: 255,255,255;
-        --col-green: 16,115,0;
-        --col-brown: 98,41,0;
+        --col-main: 53,54,55;
+        --col-light: 235,237,239;
+        --col-red: 221,51,52;
         --container-max-width: 1335px;
     }
 
@@ -30,18 +27,19 @@
     html {
         font-size: 1px;
         margin: 0!important;
-        padding: 0;
-        width: 100%;
+        padding: 0!important;
+        width: 100%!important;
     }
     
     body {
         font-size: 18rem;
         font-weight: 400;
         color: rgb(var(--col-main));
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        overflow-x: hidden;
+        margin: 0!important;
+        padding: 0!important;
+        width: 100%!important;
+        overflow-x: hidden!important;
+        /* padding-bottom: 150rem; */
     }
     
     * {
@@ -56,6 +54,15 @@
         margin: 0 auto;
     }
 
+    h1 {
+        text-transform: uppercase;
+        font-size: 35rem;
+        margin: 20rem 0;
+        padding: 0;
+        font-weight: 400;
+        letter-spacing: -1rem;
+    }
+
 
     @media screen and (max-width: 1335px) {
         html {
@@ -64,13 +71,16 @@
     }
 
     @media screen and (max-width: 640px) {
+        * {
+            line-height: 1.2;
+        }
         html {
             font-size: calc((35vw + 450px) / 640);
         }
         .container {
-            width: calc(100% - 40rem);
-            max-width: 100%;
+            width: 100vw;
             margin: 0 auto;
+            padding: 0 40px;
         }
 
     }
