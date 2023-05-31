@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <meta name="yandex-verification" content="5c4afdee6183509d" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
         <meta name="msapplication-TileColor" content="#da532c">
