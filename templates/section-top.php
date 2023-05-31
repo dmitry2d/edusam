@@ -11,15 +11,15 @@
     </div>
     <div class="name">
         <div class="title">
-            Аренда престижных автомобилей<br>
+            <?= get_field('title', 9)?>
         </div>
         <div class="http">
-            едусам.рф
+            <?= get_field('url', 9)?>
         </div>
     </div>
     <div class="contacts">
-        <div class="phone">+7 921 024 5052</div>
-        <div class="email"><a href="mailto:email@email.com">email@email.com</a></div>
+        <div class="phone"><?= get_field('phone', 9)?></div>
+        <div class="email"><a href="mailto:<?= get_field('email', 9)?>"><?= get_field('email', 9)?></a></div>
     </div>
 </div>
 
