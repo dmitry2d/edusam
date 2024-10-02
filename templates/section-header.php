@@ -10,13 +10,14 @@
         <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <meta name="yandex-verification" content="5c4afdee6183509d" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+		<meta name="yandex-verification" content="a0cecfb034953652" />
 
-        <title>Аренда Автомобилей</title>
+        <title>Аренда Автомобилей в Великом Новгороде</title>
         <?php wp_head(); ?>
         
         <!-- jQuery -->
@@ -34,6 +35,11 @@
         <script
         type="text/javascript"
         src="<?= get_template_directory_uri(); ?>/src/lightbox/js/lightbox.js">
+        </script>
+
+        <script
+        type="text/javascript"
+        src="<?= get_template_directory_uri(); ?>/src/mask/script.js?v=3">
         </script>
 
         <!-- Common Styles And Scripts -->

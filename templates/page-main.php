@@ -1,4 +1,3 @@
-
 <?php
 /*
 * Page Main
@@ -33,6 +32,10 @@
     </div>
 
     <?php get_template_part('templates/section', 'requirements'); ?>
+
+    <?php get_template_part('templates/section', 'form'); ?>
+
+    <?php get_template_part('templates/section', 'article'); ?>
     
     
 </div>

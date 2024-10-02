@@ -19,7 +19,8 @@
     </div>
     <div class="contacts">
         <div class="phone"><?= get_field('phone', 9)?></div>
-        <div class="email"><a href="mailto:<?= get_field('email', 9)?>"><?= get_field('email', 9)?></a></div>
+        <?php /*div class="email"><a href="mailto:<?= get_field('email', 9)?>"><?= get_field('email', 9)?></a></div*/?>
+        <div class="scroll-btn"><a href="#order_form_block">Подать заявку</a></div>
     </div>
 </div>
 
@@ -54,7 +55,36 @@
         font-size: 14rem;
         color: rgb(var(--col-main));
     }
+    .scroll-btn {
+		  margin-top: 15rem;
+    }
+    .scroll-btn a {
+			width: 200rem;
+			height: 40rem;
+			margin-left: auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 0;
+			background: #353637;
+			border-radius: 3rem;
+			color: #fff;
+			cursor: pointer;
+			font-size: 18rem;
+			transition: 0.5s all;
+			text-decoration: none;
+    }
+		.scroll-btn a:hover {
+			box-shadow: 0px 0px 20rem 0px rgba(0, 0, 0, 0.15);
+			background: #dd3334;
+		}
     @media screen and (max-width: 640px) {
+		    .scroll-btn a {
+					width: 200rem;
+					height: 40rem;
+					margin-left: 0;
+					margin-right: 0;
+		    }
         .top {
             flex-direction: column;
         }
