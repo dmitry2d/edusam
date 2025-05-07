@@ -126,6 +126,9 @@
             prevArrow: '<div class="gallery__prev-arrow"></div>',
             nextArrow: '<div class="gallery__next-arrow"></div>',
             slidesToShow: 6,
+            slidesToScroll: 3,
+            autoplay: true,
+            infinite: true,
             responsive: [
                 {
                     breakpoint: 1000,
